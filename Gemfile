@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.7.2'
 
-gem 'rails', '6.1.3.1'
-gem 'bootstrap'
+gem 'rails', '6.1.3.2'
+gem 'bootstrap', '4.6.0'
 gem 'attr_encrypted'
 gem 'jquery-rails'
 gem 'pagy'
@@ -64,7 +64,7 @@ group :development do
 end
 
 group :production do
-  gem 'skylight', '~> 5.0.0.beta5'
+  gem 'skylight', '~> 5.1.0.beta3'
   gem 'lograge'
   gem 'puma_worker_killer'
 end
